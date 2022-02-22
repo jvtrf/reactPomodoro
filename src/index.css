@@ -1,0 +1,60 @@
+
+
+* {
+  margin: 0 0;
+}
+
+#app {
+  background-color: rgba(0, 18, 36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#clock {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  background-color:
+#080a0a
+;
+  border: 2px solid #5c5c5c;
+  border-radius: 1.5rem;
+  box-shadow: 5px 2px 5px 1px black;;
+  color: white;
+}
+#length-painel {
+  display: flex;
+  flex-direction: row;
+  height:50%;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+#timer-painel {
+  height: 50%;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+#timer-counter{
+  display:flex;
+  justify-content: center;
+}
+#display{
+  border: 1px solid #2e2e2e;
+  border-radius: 15%;
+  width: 30%;
+}
+
+button {
+  margin: 2px 2px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
